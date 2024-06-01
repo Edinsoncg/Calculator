@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+
+<body>
+
+    <div class="container bg-primary p-4 rounded-3" style="max-width: 20rem">
+
+        <div class="container bg-info p-4 rounded-3">
+            <div id="history" class="border-bottom text-end"></div>
+            <div id="display" class="text-end">0</div>
+        </div>
+    
+        <div class="row g-2 gap-2 mt-2">
+            <button id="clearHistory" class="btn rounded text-bg-warning col">CH</button>
+            <button  id="c" class="btn rounded text-bg-warning col">C</button>
+            <button id="btnDelete" class="btn rounded text-bg-warning col">←</button>
+            <button class="btn rounded text-bg-warning col">/</button>
+        </div>
+
+        <div class="row g-2 gap-2 mt-2">
+            <button class="btn rounded text-bg-secondary col">7</button>
+            <button class="btn rounded text-bg-secondary col">8</button>
+            <button class="btn rounded text-bg-secondary col">9</button>
+            <button class="btn rounded text-bg-warning col">x</button>
+        </div>
+
+        <div class="row g-2 gap-2 mt-2">
+            <button class="btn rounded text-bg-secondary col">4</button>
+            <button class="btn rounded text-bg-secondary col">5</button>
+            <button class="btn rounded text-bg-secondary col">6</button>
+            <button class="btn rounded text-bg-warning col">-</button>
+        </div>
+
+        <div class="row g-2 gap-2 mt-2">
+            <button class="btn rounded text-bg-secondary col">1</button> 
+            <button class="btn rounded text-bg-secondary col">2</button>
+            <button class="btn rounded text-bg-secondary col">3</button>
+            <button class="btn rounded text-bg-warning col">+</button>
+        </div>  
+
+        <div class="row g-2 gap-2 mt-2">
+            <button id="zero" class="btn rounded text-bg-secondary col">0</button>
+            <button id="zero" class="btn rounded text-bg-secondary col">00</button>
+            <button class="btn rounded text-bg-secondary col">.</button>
+            <button id="equal" class="btn rounded text-bg-warning col">=</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
